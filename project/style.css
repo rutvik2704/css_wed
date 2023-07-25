@@ -220,3 +220,9 @@ header .header .right ul li a{
    margin-top: 70px;
 }
 
+.section4 .text{
+    display: flex;
+    width: 100%;
+    margin: 20px 0px 0px 100px; 
+    
+}
