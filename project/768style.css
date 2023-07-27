@@ -253,5 +253,39 @@ margin-top: 20px;
   margin: 20px;
   padding: 13px 20px;
 }
+/* section6 */
+.section6{
+  height: 300px;
+}
+.section6 h1{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 50px 0px 0px 0px;
+}
+.section6 .letter{
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+}
+.section6 .letter .duis{
+  width: 100%;
+}
+.section6 .letter .duis p{
+  font-size: 25px;
+  margin-left: 50px;
+}
+.section6 .letter .email{
+  width: 100%;
+  margin: 30px 0px 0px 50px;
+}
+.section6 .letter .email input{
+  font-size: 20px;
+  width:500px;
+
+}
+.section6 .letter .email button{
+  font-size: 20px;
+  padding: 10px 20px;
+}
     
   }

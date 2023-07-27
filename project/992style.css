@@ -315,12 +315,55 @@
     margin: 20px;
     padding: 13px 20px;
 }
+/* section6 */
+.section6{
+    height: 300px;
+    color: #323648;
+}
+.section6 h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin: 50px 0px 0px 0px;
+}
+.section6 .letter{
+    display: flex;
+  flex-direction: unset;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin-top: 50px;
+}
+.section6 .letter .duis{
+    width: 49%;
+}
+.section6 .letter .duis p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+}
+.section6 .letter .email{
+    width: 49%;
+   margin: 30px 0px 0px 0px;
+    
+}
+.section6 .letter .email input{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-bottom: 2px solid black;
+    width:300px;
 
+}
+.section6 .letter .email button{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #da9d40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
 
-
-
-
-      
-  
-  }
+}
+}
  

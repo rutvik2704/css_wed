@@ -345,7 +345,7 @@ header .header .right ul li a{
 
 /* section6 */
 .section6{
-    border: 2px solid blue;
+    height: 300px;
     color: #323648;
 }
 .section6 h1{
@@ -353,12 +353,15 @@ header .header .right ul li a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-weight: 700;
+    margin: 50px 0px 0px 0px;
 }
 .section6 .letter{
     display: flex;
+  flex-direction: unset;
     top: 0px;
     left: 0px;
     width: 100%;
+    margin-top: 50px;
 }
 .section6 .letter .duis{
     width: 49%;
@@ -366,7 +369,27 @@ header .header .right ul li a{
 .section6 .letter .duis p{
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
 }
-.section6 .letter.email{
+.section6 .letter .email{
     width: 49%;
+   margin: 30px 0px 0px 0px;
+    
+   
+}
+.section6 .letter .email input{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-bottom: 2px solid black;
+    width:0px;
+}
+.section6 .letter .email button{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #da9d40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+
 }
