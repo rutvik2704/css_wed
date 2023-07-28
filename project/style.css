@@ -393,3 +393,68 @@ header .header .right ul li a{
     border: none;
 
 }
+/* section7  */
+.section7{
+    color: rgb(255,255,255);
+    background-color: black;
+  }
+  .section7 .touch {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    
+  }
+  .section7 .left{
+    width: 30%;
+     margin-left: 60px;
+  }
+  .section7 .left h1{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 0px 0px 20px;
+  }
+  .section7 .right{
+    width: 70%;
+    margin-right: 80px;
+    opacity: .5;
+
+    
+  }
+  .section7 .right .face{
+    text-align:right;
+  }
+  .section7 .right .face i{
+    padding-top: 30px;
+    margin: 0px 15px;
+    font-size: 22px;
+
+  }
+  .section7 .right .header ul{
+    list-style: none;
+    text-align: end;
+    padding-top: 15px;
+
+
+  }
+  .section7 .right .header li{
+    display: inline;
+  }
+  .section7 .right .header li a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: rgb(255,255,255);
+    font-weight: 500;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: 300;
+
+  }
+  .section7 h6{
+ font-size: 15px;
+ font-weight: 100;
+ margin: 20px 0px;
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ opacity: .5;
+ padding-bottom: 20px;
+
+  }
