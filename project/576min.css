@@ -9,21 +9,21 @@
       width: 35%;
     }
     header .header .left h1 {
-      font-size: 30px;
-      margin: 10px 10px 10px 10% ;
+      font-size: 35px;
+      margin: 10px 10px 10px 20% ;
   
     }
     header .header .right {
-      width: 64%;
+      width: 65%;
     }
     header .header .right ul  {
-      margin-top: 26px;
+      margin-top: 32px;
     }
     header .header .right ul li {
-      margin: 3px;
+      margin: 10px;
     }
     header .header .right ul li a {
-      font-size: 13px;
+      font-size: 15px;
     }
     /* section1  */
   .section1{
