@@ -28,7 +28,7 @@
       /* border: 1px solid red; */
   }
   header .header .left{
-      width: 35%;
+      width: 30%;
   }
   header .header .left h1{
       font-size: 40px;
@@ -69,6 +69,7 @@
       text-align: center;
       color: whitesmoke;
       z-index: 1;
+      margin-top: 20px;
   }
   .section1 .main h1{
       font-size: 56px;
