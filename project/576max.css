@@ -335,4 +335,40 @@ text-align: center;
 padding-bottom: 20px;
 
 }
+/* About us  */
+.coa{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner1.jpg");
+  height:300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  
+}
+/* section1  */
+.about{
+  height: 50px;
+  background-color: #999c9f;    
+} 
+.about .top ul{
+  margin-left: 100px;
+  padding-top: 10px;
+}
+.about  .top ul li{
+  display: inline;
+  padding: 2px;
+  
+}
+.about  .top ul li {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(118, 113, 113);
+  
+}
+.about  .top ul li a{
+  text-decoration: none;
+  color: #da9d40;
+}
+
 }
