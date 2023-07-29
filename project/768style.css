@@ -343,16 +343,7 @@ margin-top: 20px;
 
   }
   /* About us  */
-.coa{
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner1.jpg");
-  height:300px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  z-index: 0;
-  
-}
+
 /* section1  */
 .about{
   height: 50px;
@@ -392,15 +383,13 @@ margin-top: 20px;
   margin-right: 0px;
 }
 .a-section2 .text .Integer .container  h3{
-  font-size: 30px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
   font-weight: 600;
-  word-spacing: 2px;
+  word-spacing: 0px;
 
 }
 .a-section2 .text .Integer .container  h2{
-  font-size: 25px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
   font-weight: 500;
   word-spacing: 10px;
   margin-top: 10px;
@@ -410,22 +399,20 @@ margin-top: 20px;
 }
 .a-section2 .text .Integer .container p{
   font-size: 15px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 10px;
-  margin-right: 20px;
+  margin-right: 0px;
   line-height: 40px;
 }
 
 .a-section2 .text .img2{
   width:100%;
-  margin:0px 10px 0px 30px;
+  margin:0px 10px 0px 20px;
 
 
 }
 .a-section2 .text .img2 img{
   height: 400px;
   width: 90%;
-  /* height: auto; */
 
 }
 
