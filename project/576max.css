@@ -408,5 +408,32 @@ padding-bottom: 20px;
   width: 90%;
 
 }
+/* section3 */
+
+.a-section3 .text{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: unset;
+  text-align: center;
+}
+.a-section3 .text h1{
+  font-size: 30px;
+  margin: 40px 0px 0px 0px;
+  font-weight: 400;
+}
+.a-section3 .text p{
+  font-size: 15px;
+  margin: 30px 50px  ;
+  line-height: 25px;
+}
+.a-section3 .text button{
+  font-size: 15px;
+  margin: 15px;
+  padding: 13px 20px;
+  font-size: 20px;
+}
+
+
 
 }

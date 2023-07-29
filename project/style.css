@@ -547,6 +547,50 @@ header .header .right ul li a{
 .a-section2 .text .img2 img{
     height: 400px;
     width: 90%;
-    /* height: auto; */
+
+}
+/* section3 */
+.a-section3 .contact{
+    position: relative;
+}
+.a-section3 .img3 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner2.jpg");
+    background-size: cover;
+    height: 400px;
+    width: auto;
+}
+.a-section3 .img3 img {
+    filter: brightness(70%);
+
+}
+.a-section3 .text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    flex-direction: unset;
+    text-align: center;
+}
+.a-section3 .text h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 100px 0px 0px 0px;
+    font-weight: 400;
+}
+.a-section3 .text p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px 70px  ;
+    color: #bbb;
+    line-height: 35px;
+}
+.a-section3 .text button{
+    font-size: 20px;
+    margin: 20px;
+    padding: 13px 20px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    background-color:  #da9d40;
+    color: white;
 
 }

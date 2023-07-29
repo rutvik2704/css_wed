@@ -427,6 +427,31 @@ padding-bottom: 20px;
   width: 90%;
 
 }
+/* section3 */
+
+.a-section3 .text{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: unset;
+  text-align: center;
+}
+.a-section3 .text h1{
+  font-size: 35px;
+  margin: 100px 0px 0px 0px;
+  font-weight: 400;
+}
+.a-section3 .text p{
+  font-size: 17px;
+  margin: 30px 70px  ;
+  line-height: 35px;
+}
+.a-section3 .text button{
+  font-size: 20px;
+  margin: 20px;
+  padding: 13px 20px;
+  font-size: 20px;
+}
 
 
 }
