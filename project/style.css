@@ -594,6 +594,7 @@ header .header .right ul li a{
     color: white;
 
 }
+/* .a-section4  */
 .a-section4 .our h1{
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -604,6 +605,9 @@ header .header .right ul li a{
 .a-section4 .box{
     display: flex;
     gap: 20px;
+    position: relative;
+    transition: all .2s ease-out 0s;
+    text-align: center;
 }
 
 
@@ -618,3 +622,22 @@ header .header .right ul li a{
         max-width: 100%;
         height: auto;
 }
+.a-section4 .box:hover .box-content {
+    opacity: 1;
+    transform: translate(0, -50%);
+    transition-delay: .2s;
+}
+
+/* .box13 .box-content {
+    top: 45%;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transform: translate(10%, -30%);
+    transform: translate(10%, -30%);
+    transition: all .2s ease-out 0s;
+}
+.box13 .box-content, .box13:after {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+} */
