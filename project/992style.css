@@ -1,23 +1,21 @@
 @media (min-width: 992px) {
-    /* body {
-      background-color: red;
-    } */
+   
     *{
       margin: 0px;
       padding: 0px;
       box-sizing: border-box;
-  }
-  /* body{
-      background-color: red;
-  } */
-  .co{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner1.jpg");
-    height: 600px;
+    }
+ 
+  .box1
+  {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner1.jpg);
+    height: 500px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     z-index: 0;
+
     
 }
   /* header  */
@@ -144,71 +142,72 @@
     
       
       }
- /* section3 */
-
- .section3 .year{
+ /* section3  */
+.section3 .year {
     position: relative;
-    color: white;
-}
-.section3 .img3 img{
+    color: whitesmoke;
+  }
+  .section3 .img3 img {
     height: 400px;
     width: 100%;
-}
-.section3 .text{
+  }
+  .section3 .text {
     position: absolute;
     top: 0px;
     left: 0px;
     display: flex;
-    width: 100%;
     flex-direction: unset;
-
-}
-.section3 .text .left{
+    width: 100%;
+  }
+  .section3 .text .left {
+    margin: 100px 0px 0px 100px;
     width: 49%;
-    margin: 100PX 0PX 0PX 100PX ;
-}
-.section3 .text .left h1{
+  }
+  .section3 .text .left h1 {
     font-size: 35px;
-}
-.section3 .text .left p{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section3 .text .left p {
     font-size: 19px;
-    margin: 25px 50px 25px 0px ;
-    text-align: left;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 50px 25px 0px;
     line-height: 35px;
-}
-.section3 .text .left h4{
+    text-align: left;
+  }
+  .section3 .text .left h4 {
     font-size: 50px;
-    color: #da9d40;
-}
-.section3 .text .left h4 em{
+  }
+  .section3 .text .left h4 em {
     font-size: 25px;
     font-style: normal;
-    color: white;
-}
-.section3 .text .right{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .section3 .text .right {
     width: 49%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 0px 0px;
+    grid-template-columns: repeat(3, 1fr);
     margin: 100px 0px 0px 0px;
-}
-.section3 .text .right .happy h6{
+    gap: 0px 0px;
+  }
+  .section3 .text .right .happy h6 {
     font-size: 18px;
-    font-weight: 300px;
-}
-.section3 .text .right .happy h1{
-    font-size: 40px;
+    font-weight: 300;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section3 .text .right .happy h1 {
     margin-top: 25px;
-}
-.section3 .text .right .happy i{
+    font-size: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section3 .text .right .happy i {
     font-size: 25px;
     background-color: white;
     color: black;
     border-radius: 50%;
     padding: 20px;
-    margin: 20px;
-
-}
+    margin-top: 20px;
+  }
 /* section4  */
  .section4 .upper{
     text-align: center;
@@ -320,6 +319,8 @@
 .section6{
     height: 300px;
     color: #323648;
+    background-color: #f8f9fa;
+
 }
 .section6 h1{
     font-size: 40px;
@@ -354,6 +355,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
     border-bottom: 2px solid black;
+    background-color: #f8f9fa;
     width:300px;
 
 }
@@ -725,7 +727,6 @@
 .s-section3 .right  .top .img1{
     margin:0px 0px 5px 0px;
     width:450px;
-
 }
 .s-section3 .right .top .img1 img{
     width: 100%;
@@ -872,5 +873,122 @@
     margin: 20px;
 
 }
+
+/* gallary  */
+.g-section2 {
+    height:45rem;
+
 }
+.g-section2  .our{
+    text-align: center;
+    margin: 30px 0px;
+
+}
+.g-section2  .our h2{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.g-section2  .box{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 100%;
+   gap: 10px 0px;
+   padding: 10px 10%;
+   height: 350px;
+
+}
+.g-section2  .box .gallery{
  
+    margin: 10px;
+ }
+ .g-section2  .box .gallery img{
+ 
+    width: 100%;
+    height: 50%;
+    
+
+ }
+ .g-section2  .box .gallery  h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+ }
+ .g-section2  .box .gallery  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .7;
+    line-height: 30px;
+    margin-top: 10px;
+ }
+ /* contact  */
+.c-section2 .container h2{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+}
+.c-section2 .contact-form {
+    margin: 0px 50px;
+
+}
+.c-section2 .contact-form .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 50px ;
+}
+
+.c-section2 .contact-form .row .text label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.c-section2 .contact-form .row .text input{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    background: #f6f6f6;
+    text-transform: capitalize;
+    background-image: none;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  
+}
+.c-section2 .main {
+    margin: 0px 50px;
+
+}
+.c-section2 .main textarea{
+    height: 180px;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}
+.c-section2 button {
+    background: #da9d40;
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid;
+    padding: 13px 40px;
+    letter-spacing: 2px;
+    margin: 20px 50px;
+}
+.map iframe{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+}
+}

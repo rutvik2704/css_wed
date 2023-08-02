@@ -568,7 +568,7 @@ margin-top: 20px;
 }
 .s-section3 .left .img1{
   margin:0px 0px 0px 25px;
-  width: 440px;
+  width: 400px;
 }
 .s-section3 .left .img1 img{
   width: 100%;
@@ -594,7 +594,7 @@ margin-top: 20px;
 }
 .s-section3 .right  .top .img1{
   margin:0px 0px 5px 0px;
-  width:440px;
+  width:400px;
 
 }
 .s-section3 .right .top .img1 img{
@@ -630,7 +630,7 @@ margin-top: 20px;
 }
 .s-section3 .right  .bottom .left .img2{
   margin:0px 0px 5px 0px;
-  width: 220px;
+  width: 190px;
 }
 .s-section3 .right .bottom .left .img2 img{
   width: 100%;
@@ -648,7 +648,7 @@ margin-top: 20px;
 }
 .s-section3 .right  .bottom .right .img2{
   margin:0px 0px 5px 0px;
-  width: 220px;
+  width: 190px;
 }
 .s-section3 .right .bottom .left .text h2{
   font-size:20px;
@@ -736,4 +736,28 @@ font-size: 25px;
 padding: 20px;
 margin-top: 20px;
 } 
+/* gallary  */
+.g-section2 {
+  height:56rem;
+}
+.g-section2  .box{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ width: 100%;
+ gap: 10px 0px;
+ padding: 10px 10%;
+ height: 350px;
+
+}
+/* contact  */
+
+.c-section2 .contact-form .row{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+  margin-top: 50px ;
+}
+
+
+
   }
