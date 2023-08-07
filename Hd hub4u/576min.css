@@ -1,0 +1,38 @@
+
+@media (min-width: 576px) {
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header */
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.header .logo{
+   width: 38%;
+}
+
+header .header .right{
+    width: 65%;
+}
+header .header .right ul{
+    list-style: none;
+    margin-top: 30px;
+    text-align: end;
+
+}
+header .header .right ul li{
+    display: inline;
+}
+header .header .right ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+}
